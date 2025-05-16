@@ -14,6 +14,7 @@ static_map_layer:
   subscribe_to_updates: true
 
 obstacles_layer:
+  enabled: false
   observation_sources: scan
   scan:
     {
@@ -24,3 +25,14 @@ obstacles_layer:
       clearing: true,
     }
 
+inflation_radius: 1.0
+cost_scaling_factor: 5.0
+
+social_layer:
+  enabled: true
+  combination_method: 1
+  observation_sources: social
+  social:
+    topic: /instance_array
+    marking: true
+    clearing: true
