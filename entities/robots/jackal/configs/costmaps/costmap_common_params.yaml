@@ -14,7 +14,7 @@ static_map_layer:
   subscribe_to_updates: true
 
 obstacles_layer:
-  enabled: false
+  enabled: true
   observation_sources: scan
   scan:
     {
