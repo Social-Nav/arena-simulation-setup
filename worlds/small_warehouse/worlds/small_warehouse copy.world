@@ -16,12 +16,12 @@
             <pose frame="">0.0 0.0 0 0 0 0</pose>
         </model> -->
 
-        <!-- <model name="aws_robomaker_warehouse_ShelfF_01_001">
+        <model name="aws_robomaker_warehouse_ShelfF_01_001">
             <include>
                 <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
             </include>
             <pose frame="">-5.795143 -0.956635 0 0 0 0</pose>
-        </model> -->
+        </model>
 
         <model name="aws_robomaker_warehouse_WallB_01_001">
             <include>
@@ -30,7 +30,7 @@
             <pose frame="">0.0 0.0 0 0 0 0</pose>
         </model>
 
-        <!-- <model name="aws_robomaker_warehouse_ShelfE_01_001">
+        <model name="aws_robomaker_warehouse_ShelfE_01_001">
             <include>
                 <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
             </include>
@@ -70,7 +70,7 @@
                 <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
             </include>
             <pose frame="">4.73156 -6.750542 0 0 0 0</pose>
-        </model> -->
+        </model>
 
         <!--model name="aws_robomaker_warehouse_DeskC_01_001">
         <include>
@@ -107,7 +107,7 @@
 
 
 
-        <!-- <model name="aws_robomaker_warehouse_Bucket_01_020">
+        <model name="aws_robomaker_warehouse_Bucket_01_020">
             <include>
                 <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
             </include>
@@ -212,7 +212,7 @@
                 <uri>model://aws_robomaker_warehouse_PalletJackB_01</uri>
             </include>
             <pose frame="">-0.276098 -9.481944 0.023266 0 0 0</pose>
-        </model> -->
+        </model>
 
         <light name="Warehouse_CeilingLight_003" type="point">
             <pose frame="">0 0 9 0 0 0</pose>

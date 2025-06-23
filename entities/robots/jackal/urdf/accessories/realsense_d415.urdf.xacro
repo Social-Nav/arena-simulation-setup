@@ -158,7 +158,7 @@ aluminum peripherial evaluation case.
           <image>
             <width>640</width>
             <height>480</height>
-            <format>R8G8B8</format>
+            <format>B8G8R8</format>
           </image>
           <clip>
             <near>0.016</near>
