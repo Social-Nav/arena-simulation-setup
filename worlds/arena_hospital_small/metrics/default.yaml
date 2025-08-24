@@ -1,0 +1,21 @@
+subjects:
+  by_id:
+    "Doctor_1": 
+      scoring: u_curve
+      params: { optimal_distance: 1.2, curve_width: 0.8 }
+    "Visitor_1": 
+      scoring: distance_penalty
+      params: { safe_distance: 1.0, penalty_weight: 1.0 }
+    "Visitor_2": 
+      scoring: distance_penalty
+      params: { safe_distance: 1.0, penalty_weight: 1.0 }
+    "Nurse_1": 
+      scoring: distance_penalty
+      params: { safe_distance: 1.5, penalty_weight: 1.5 }
+    "Nurse_2": 
+      scoring: distance_penalty
+      params: { safe_distance: 1.5, penalty_weight: 1.5 }
+
+  scoring:
+    overall_aggregation: weighted_mean
+    normalize_by_episode_time: true

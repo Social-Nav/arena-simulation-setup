@@ -1,0 +1,18 @@
+zones:
+  Forbidden Zone:
+    category: "storage"
+    penalty_type: "forbidden_zone_violation"
+    scoring: "zone_penalty"
+    params:
+      violation_penalty: -5.0          # Severe penalty for entering the forbidden zone
+      safe_distance: 1.0               # Safety distance from the forbidden zone boundary
+      penalty_weight: 3.0              # Penalty weight
+      continuous_violation: true       # Whether continuous violations accumulate penalties
+      max_penalty: -20.0               # Maximum penalty value
+    
+# Global settings
+global_settings:
+  zone_violation_tracking: true        # Whether to track zone violations
+  violation_logging: true              # Whether to log violations
+  real_time_penalty: true              # Whether to calculate penalties in real time
+  episode_summary: true                # Whether to generate a violation summary at the end of the episode
