@@ -7,12 +7,10 @@
     <pose>0 0 0.75 0 0 0</pose>
     <skin>
       <filename>moonwalk.dae</filename>
-      <!-- <filename>model://DoctorFemaleWalk/meshes/DoctorFemaleWalk.dae</filename> -->
       <scale>1.0</scale>
     </skin>
     <animation name="walking">
       <filename>walk.dae</filename>
-      <!-- <filename>model://DoctorFemaleWalk/meshes/DoctorFemaleWalk.dae</filename> -->
       <scale>1.000000</scale>
       <interpolate_x>true</interpolate_x>
     </animation>
