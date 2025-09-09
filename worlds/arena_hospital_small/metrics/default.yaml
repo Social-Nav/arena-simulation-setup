@@ -9,6 +9,9 @@ subjects:
     "Visitor_2": 
       scoring: distance_penalty
       params: { safe_distance: 1.0, penalty_weight: 1.0 }
+    "Visitor_3": 
+      scoring: distance_penalty
+      params: { safe_distance: 1.0, penalty_weight: 1.0 }
     "Nurse_1": 
       scoring: distance_penalty
       params: { safe_distance: 1.5, penalty_weight: 1.5 }
@@ -16,6 +19,62 @@ subjects:
       scoring: distance_penalty
       params: { safe_distance: 1.5, penalty_weight: 1.5 }
 
+
+zones:
+  Patient Room 1:
+    category: "patient"
+    penalty_type: "forbidden_zone_violation"
+    scoring: "zone_penalty"
+    params:
+      violation_penalty: -5.0          # Severe penalty for entering the patient room
+      safe_distance: 1.0               # Safety distance from the patient room boundary
+      penalty_weight: 3.0              # Penalty weight
+      continuous_violation: true       # Whether continuous violations accumulate penalties
+      max_penalty: -20.0               # Maximum penalty value
+
+  Patient Room 2:
+    category: "patient"
+    penalty_type: "forbidden_zone_violation"
+    scoring: "zone_penalty"
+    params:
+      violation_penalty: -5.0          # Severe penalty for entering the patient room
+      safe_distance: 1.0               # Safety distance from the patient room boundary
+      penalty_weight: 3.0              # Penalty weight
+      continuous_violation: true       # Whether continuous violations accumulate penalties
+      max_penalty: -20.0               # Maximum penalty value
+
+  Patient Room 3:
+    category: "patient"
+    penalty_type: "forbidden_zone_violation"
+    scoring: "zone_penalty"
+    params:
+      violation_penalty: -5.0          # Severe penalty for entering the patient room
+      safe_distance: 1.0               # Safety distance from the patient room boundary
+      penalty_weight: 3.0              # Penalty weight
+      continuous_violation: true       # Whether continuous violations accumulate penalties
+      max_penalty: -20.0               # Maximum penalty value
+
+  Patient Room 4:
+    category: "patient"
+    penalty_type: "forbidden_zone_violation"
+    scoring: "zone_penalty"
+    params:
+      violation_penalty: -5.0          # Severe penalty for entering the patient room
+      safe_distance: 1.0               # Safety distance from the patient room boundary
+      penalty_weight: 3.0              # Penalty weight
+      continuous_violation: true       # Whether continuous violations accumulate penalties
+      max_penalty: -20.0               # Maximum penalty value
+
+  Patient Room 5:
+    category: "patient"
+    penalty_type: "forbidden_zone_violation"
+    scoring: "zone_penalty"
+    params:
+      violation_penalty: -5.0          # Severe penalty for entering the patient room
+      safe_distance: 1.0               # Safety distance from the patient room boundary
+      penalty_weight: 3.0              # Penalty weight
+      continuous_violation: true       # Whether continuous violations accumulate penalties
+      max_penalty: -20.0               # Maximum penalty value
+
   scoring:
-    overall_aggregation: weighted_mean
     normalize_by_episode_time: true

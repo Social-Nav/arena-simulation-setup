@@ -10,9 +10,3 @@ zones:
       continuous_violation: true       # Whether continuous violations accumulate penalties
       max_penalty: -20.0               # Maximum penalty value
     
-# Global settings
-global_settings:
-  zone_violation_tracking: true        # Whether to track zone violations
-  violation_logging: true              # Whether to log violations
-  real_time_penalty: true              # Whether to calculate penalties in real time
-  episode_summary: true                # Whether to generate a violation summary at the end of the episode
