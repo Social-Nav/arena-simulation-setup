@@ -19,7 +19,6 @@ subjects:
       scoring: distance_penalty
       params: { safe_distance: 1.5, penalty_weight: 1.5 }
 
-
 zones:
   Patient Room 1:
     category: "patient"
@@ -30,6 +29,7 @@ zones:
       safe_distance: 1.0               # Safety distance from the patient room boundary
       penalty_weight: 3.0              # Penalty weight
       continuous_violation: true       # Whether continuous violations accumulate penalties
+      time_multiplier: 1.0             # Time-based penalty multiplier (penalty per time step)
       max_penalty: -20.0               # Maximum penalty value
 
   Patient Room 2:
@@ -41,6 +41,7 @@ zones:
       safe_distance: 1.0               # Safety distance from the patient room boundary
       penalty_weight: 3.0              # Penalty weight
       continuous_violation: true       # Whether continuous violations accumulate penalties
+      time_multiplier: 1.0             # Time-based penalty multiplier (penalty per time step)
       max_penalty: -20.0               # Maximum penalty value
 
   Patient Room 3:
@@ -52,6 +53,7 @@ zones:
       safe_distance: 1.0               # Safety distance from the patient room boundary
       penalty_weight: 3.0              # Penalty weight
       continuous_violation: true       # Whether continuous violations accumulate penalties
+      time_multiplier: 1.0            # Time-based penalty multiplier (penalty per time step)
       max_penalty: -20.0               # Maximum penalty value
 
   Patient Room 4:
@@ -63,6 +65,7 @@ zones:
       safe_distance: 1.0               # Safety distance from the patient room boundary
       penalty_weight: 3.0              # Penalty weight
       continuous_violation: true       # Whether continuous violations accumulate penalties
+      time_multiplier: 1.0             # Time-based penalty multiplier (penalty per time step)
       max_penalty: -20.0               # Maximum penalty value
 
   Patient Room 5:
@@ -74,6 +77,7 @@ zones:
       safe_distance: 1.0               # Safety distance from the patient room boundary
       penalty_weight: 3.0              # Penalty weight
       continuous_violation: true       # Whether continuous violations accumulate penalties
+      time_multiplier: 1.0             # Time-based penalty multiplier (penalty per time step)
       max_penalty: -20.0               # Maximum penalty value
 
   scoring:
