@@ -8,5 +8,5 @@ zones:
       safe_distance: 1.0               # Safety distance from the forbidden zone boundary
       penalty_weight: 3.0              # Penalty weight
       continuous_violation: true       # Whether continuous violations accumulate penalties
-      max_penalty: -20.0               # Maximum penalty value
+      max_penalty: -100.0               # Maximum penalty value
     
