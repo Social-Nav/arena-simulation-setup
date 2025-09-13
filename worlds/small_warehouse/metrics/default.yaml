@@ -1,3 +1,12 @@
+subjects:
+  by_id:
+    "Visitor_1": 
+      scoring: distance_penalty
+      params: { safe_distance: 1.0, penalty_weight: 1.0, tolerance: 0.5 }
+    "Visitor_2": 
+      scoring: distance_penalty
+      params: { safe_distance: 1.0, penalty_weight: 1.0, tolerance: 0.5 }
+
 zones:
   Forbidden Zone:
     category: "storage"
