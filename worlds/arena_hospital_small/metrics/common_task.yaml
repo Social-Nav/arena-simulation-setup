@@ -1,9 +1,9 @@
 subjects:
   by_id:
     "Doctor_1": 
-      scoring: u_curve
-      params: { optimal_distance: 2.0, curve_width: 0.8, tolerance: 0.5 }
-      average_weight: 5
+      scoring: distance_penalty
+      params: { safe_distance: 1.0, penalty_weight: 1.0, tolerance: 0.5 }
+      average_weight: 1
     "Visitor_0": 
       scoring: distance_penalty
       params: { safe_distance: 1.0, penalty_weight: 1.0, tolerance: 0.5 }

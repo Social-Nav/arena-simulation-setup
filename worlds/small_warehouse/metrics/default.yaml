@@ -3,9 +3,11 @@ subjects:
     "Visitor_1": 
       scoring: distance_penalty
       params: { safe_distance: 1.0, penalty_weight: 1.0, tolerance: 0.5 }
+      average_weight: 1
     "Visitor_2": 
       scoring: distance_penalty
       params: { safe_distance: 1.0, penalty_weight: 1.0, tolerance: 0.5 }
+      average_weight: 1
 
 zones:
   Forbidden Zone:
